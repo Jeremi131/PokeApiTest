@@ -10,6 +10,7 @@ const DataPokemon = ({pokemon}) => {
         <ul className='data'>
         <li>Peso: {pokemon?.height}</li>
         <li>Anchura: {pokemon?.weight}</li>
+        <li className='ability'>Habilidad: {pokemon?.abilities[0].ability.name}</li>
         </ul>
     </article>
   )
